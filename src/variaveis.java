@@ -7,7 +7,9 @@ public class variaveis {
         
 
         final int VALOR_COMUM =  10;
-        
+        System.out.println("O salário mínimo é: " + salarioMinimo);
+        System.out.println("O salário diferente é: " + salarioDiferente);
+        System.out.println("O valor comum é: " + VALOR_COMUM);
 
     
     }
