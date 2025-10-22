@@ -54,5 +54,51 @@ public class Operadores {
         int respostaDois = a==b ? 1 : 2 ;
 
         System.out.println(respostaDois);
+
+       System.out.println("");
+
+        int numeroUm = 1;
+        int numeroDois = 2;
+
+        boolean  simNao = numeroUm == numeroDois;
+
+        System.out.println(simNao);
+
+        if ( numeroUm > numeroDois) {
+        
+        System.out.println(" numero é verdadeiro"); // sinal de < menor e > maior.
+        }
+        else {
+            System.out.println("é false");
+        } 
+
+        simNao = numeroUm != numeroDois;
+        System.out.println("diferente");
+        
+        
+        System.out.println("");
+
+        //operadores logicos
+
+        boolean condicaoUm = true;
+        boolean condicaoDois = false;
+
+        if(condicaoUm && condicaoDois){ // o operador && ele faz uma comparação entre as variaveis, se as duas forem verdadeiras,
+            // ele da true, se uma for diferente ele retorna false, pois para da certo as duas deve ser iguais 
+            System.out.println("É igual as duas");
+
+        }
+        else{
+            System.out.println("Falsa");
+        }
+
+        if (condicaoUm || condicaoDois){ // o operador logico || ele verifica se uma das condições são verdadeiras, se uma delas for verdadeira,
+            //ele já considera true, quando as duas for false, ele considera falso, se tem uma verdeira e outra falsa, ainda continua verdadeira.
+            System.out.println("Está correto");
+        }
+        else{
+            System.out.println("não está certo");
+        }
+
     }
 }
