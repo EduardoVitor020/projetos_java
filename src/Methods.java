@@ -1,4 +1,4 @@
-public class metodos {
+public class Methods {
     public static void main (String [] args) {
         String primeiroNome = "Eduardo";
         String segundoNome = "Vitor";
