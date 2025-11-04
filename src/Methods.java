@@ -10,7 +10,5 @@ public class Methods {
 
     public static String nomeCompleto (String primeiroNome, String segundoNome, String espaço) {
         return primeiroNome + (segundoNome) + espaço;
-
-
-    }
+    }   
 }
